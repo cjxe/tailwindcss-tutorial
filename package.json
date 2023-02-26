@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjxe/tailwindcss-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjxe/tailwindcss-tutorial/issues"
+  },
+  "homepage": "https://github.com/cjxe/tailwindcss-tutorial#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
