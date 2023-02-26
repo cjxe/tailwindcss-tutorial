@@ -6,6 +6,6 @@
     "package.json": true,
     "public/styles.css": true,
     "src/styles.css": true,
-    "tailwind.config.js": true
+    "public/img": true
   }
 }
