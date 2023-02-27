@@ -5,7 +5,6 @@
     "node_modules": true,
     "package.json": true,
     "public/styles.css": true,
-    "src/styles.css": true,
     "public/img": true
   }
 }
