@@ -547,24 +547,12 @@ video {
   height: 8rem;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-48{
-  width: 12rem;
-}
-
-.w-12{
-  width: 3rem;
-}
-
-.w-4{
-  width: 1rem;
-}
-
 .w-5{
   width: 1.25rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .justify-center{
@@ -573,10 +561,6 @@ video {
 
 .gap-10{
   gap: 2.5rem;
-}
-
-.border-2{
-  border-width: 2px;
 }
 
 .border-b{
@@ -677,11 +661,6 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.text-green-500{
-  --tw-text-opacity: 1;
-  color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(255 99 54 / var(--tw-text-opacity));
@@ -700,6 +679,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.card:hover{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -734,14 +719,30 @@ video {
   letter-spacing: 0.05em;
 }
 
+.hover\:bg-primary:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 99 54 / var(--tw-bg-opacity));
+}
+
+.hover\:text-gray-700:hover{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:shadow-inner:hover{
+  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px){
   .sm\:h-48{
     height: 12rem;
-  }
-
-  .sm\:text-red-500{
-    --tw-text-opacity: 1;
-    color: rgb(239 68 68 / var(--tw-text-opacity));
   }
 }
 
@@ -770,10 +771,5 @@ video {
 @media (min-width: 1024px){
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:text-blue-500{
-    --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity));
   }
 }
